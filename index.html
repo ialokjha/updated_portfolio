@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width= device-width, initial-scale=1.0">
+        <title>Personal-portfolio</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://kit.fontawesome.com/1c8548c953.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src = "https://i.ibb.co/wLK9Xw5/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li> 
+                        <li><a href="#rp">Publications</a></li>   
+                        <li><a href="#services">Certifications</a></li>                   
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Final Year Student</p>
+                    <h1> Hi, I am <span>Alok Jha</span> <br>from KIIT, Bhubaneswar.</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://i.ibb.co/4fwrq7b/ccc.jpg">
+                    </div>
+                    <div align="justify" class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, I am Alok Jha from Keonjhar, Odisha. I am currently pursuing B.Tech CSE from Kalinga Institute of Industrial Technology, Bhubaneswar. I have keen interest in web development and UI/UX designing. <br> Apart from the academics, I also like to play Chess and Badminton. Moreover, I like to cook and drive in my spare time alongside binge watching shows. However, I have great capabilities of working in teams and leading them as of my past school and college life experiences. I am good at spoken and written English and Hindi. Also, I am highly coachable and a quick learner.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('skills2')">Soft Skills</p>                            
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>KIIT</span><br>B.Tech, CSE - 2024<br> CGPA = 8.92 (Upto 6th Semester)</li>
+                                <li><span>O.P. Jindal School</span><br>Class XII - 2019<br> Percentage = 76.8%</li>
+                                <li><span>O.P. Jindal School</span><br>Class X - 2017<br>CGPA = 9.8</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>C</span><br>Level : Advanced</li>
+                                <li><span>C++</span><br>Level : Advanced</li>
+                                <li><span>Python</span><br>Level: Intermediate</li>
+                                <li><span>Javascript</span><br>Level : Beginner</li>
+                                <li><span>HTML/CSS</span><br>Level : Advanced</li>
+                                <li><span>SQL</span><br>Level : Advanced</li>
+                                <li><span>Overleaf</span><br>Level : Intermediate</li>
+                                <li><span>MS Office</span><br>Level : Advanced</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills2">
+                            <ul>
+                                <li>Confidence</li>
+                                <li>Team Work</li>
+                                <li>Leadership</li>
+                                <li>Communication</li>
+                                <li>Creativity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="experience">
+            <div class="container">
+                <h1 class="sub-title">Experience</h1>
+
+                <div class="exp-list1">
+                    <img src="https://i.ibb.co/BCY9fjW/High-Radius-PANTONE-with-IR-Logo-Main.png">
+                    <h1>Highradius Corporation</h1>
+                    <p>Consulting Internship <br> May 2023 - Present</p>
+                </div>
+
+                <div class="exp-list2">
+                    <img src="https://i.ibb.co/25X5hzm/Salesforce-com-logo-svg.png">
+                    <h1>Salesforce - SmartInternz</h1>
+                    <p>Salesforce Developer Virtual Internship <br> May 2023 - July 2023</p>
+                </div>
+
+                <div class="exp-list3">
+                    <img src="https://i.ibb.co/hcLvCC1/celebal-logo.png">
+                    <h1>Celebal Technologies</h1>
+                    <p>Summer Internship - Data Engineer <br>May 2023 - Present</p>
+                </div>
+
+                <div class="exp-list4">
+                    <img src="https://i.ibb.co/K7BRfRm/chegg-logo.png">
+                    <h1>Chegg India</h1>
+                    <p>Part Time - Subject Matter Expert (Advanced Biology) <br> Mar 2021 - Oct 2021</p>
+                </div>
+
+            </div>
+        </div>
+
+       
+
+
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="project-list">
+                    <div>
+                        <i class="fa-solid fa-square-virus"></i>
+                        <h1>Multiple Disease Prediction</h1>
+                        <p align="justify">Predicts Heart disease, Diabetes and Parkinson's disease for User Input using Support Vector Machine, K- Nearest Neighbours all integrated in a single website and hosted using streamlit.</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-user"></i>
+                        <h1>Personal Portfolio</h1>
+                        <p align="justify">Made a Personal Portfolio Website using HTML, CSS and Javascript.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-shield-dog"></i>
+                        <h1>Dog Adoption Page</h1>
+                        <p align="justify">Made a sample dog adoption page using HTML only</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-table-columns"></i>
+                        <h1>Power BI - Dashboard</h1>
+                        <p align="justify">Made two dashboards - Sports Analysis and Telicom Communication by importing data using ADF</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="rp">
+            <div class="container">
+                <h1 class = "sub-title">Publications</h1>
+                <div class="rp1">
+                    <img src="https://i.ibb.co/q1yfptV/Untitled-design-1.png">
+                    <h1>IEEE</h1>
+                    <h2>R10 HTC - 2023</h2>
+                    <p>Various Disease Forecast using Machine Learning and Streamlit<br>Conference Date : 16-18 Oct 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Highradius Corporation</h2>
+                        <p align="justify">Consulting<br>Issue Date : 20 June 2023</p>
+                        <a href="https://drive.google.com/file/d/1N3Jv3UkqfBRyxL2_XctjZDC6DFnOn-rP/view?usp=sharing">View Certificate</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <h2>TCS Ion</h2>
+                        <p align="justify">Career Edge - Young Professional<br>Issue Date : 02 July 2023</p>
+                        <a href="https://drive.google.com/file/d/1484VmMgNOlYuCUjgfVtgOFEbiXoJhh5-/view?usp=sharing">View Certificate</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-salesforce"></i>
+                        <h2>Salesforce - SmartInternz</h2>
+                        <p align="justify">Salesforce Developer Virtual Internship<br>Issue Date : 14 July 2023</p>
+                        <a href="https://drive.google.com/file/d/1TbK3qmIrAYW6CLwEHkyNMW_vymS6U8c4/view?usp=sharing">View Certificate</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-server"></i>
+                        <h2>Celebal Technologies</h2>
+                        <p align="justify">Data Engineer - Internship<br>Issue Date : 1 August 2023</p>
+                        <a href="https://drive.google.com/file/d/1_J-iRDgO926daRUo4CSdOQBRMHOg1VoM/view?usp=sharing">View Certificate</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-aws"></i>
+                        <h2>Amazon</h2>
+                        <p align="justify">AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1 - 60 hrs<br>Issue Date : 19 Apr 2023</p>
+                        <a href="https://drive.google.com/file/d/15-p1v9s0hQdGxTpMVJ3PyYgF2QNWWs0i/view?usp=share_link">View Certificate</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-hackerrank"></i>
+                        <h2>HackerRank</h2>
+                        <p align="justify">HackerRank Problem Solving Basic<br>Issue Date : 16 Sep 2022</p>
+                        <a href="https://drive.google.com/file/d/1w9YNgXTwmBmj0qbF6hBMRCwLb9HyO_yQ/view?usp=sharing">View Certificate</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-hackerrank"></i>
+                        <h2>HackerRank</h2>
+                        <p align="justify">HackerRank Problem Solving Intermediate<br>Issue Date : 16 Sep 2022</p>
+                        <a href="https://drive.google.com/file/d/1HI3Ii2SgMSPyvlzqoaf_cxxaVdJOvUon/view?usp=sharing">View Certificate</a>
+                    </div>
+                    
+<!---
+                    <div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h2>Chegg India</h2>
+                        <p align="justify">Chegg - Solving International Questions<br>Issue Date : 15 Apr 2021</p>
+                        <a href="https://drive.google.com/file/d/1oqq9zXAtn-eOqe4daQ_NIWgBilMGWNY5/view?usp=sharing">View Certificate</a>
+                    </div>
+-->
+                    <div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h2>Chegg India</h2>
+                        <p align="justify">Chegg - QnA Best Practices<br>Issue Date : 28 May 2021</p>
+                        <a href="https://drive.google.com/file/d/1Q6tl-m49299WxOOYzaFi2dwNi1w_V5JA/view?usp=sharing">View Certificate</a>
+                    </div>
+
+                </div>        
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">                
+                        <h1 class="sub-title"> Contact </h1>
+                        <p><i class="fa-solid fa-envelope"></i>alokjha1409@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i>7008328457</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/alok-jha-4a2857203/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/i_alok_jha"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/i_alok_jha/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/ialokjha"><i class="fa-brands fa-github"></i></a>                        
+                        </div>
+                        <a href="https://drive.google.com/file/d/1ruFA62LUJr1_FjcxWw-cxsZVORtyAz8n/view?usp=sharing" class="btn btn2"style="color:white">View CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="reset"class="btn btn2" style="color:white">Reset</button>
+                            <button type="submit"class="btn btn2"style="color:white">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Alok Jha</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname)
+            {
+                for (tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbykFKQIC-f5jbZB6X8J62gThYp5MnRrQqLyYToM90daZhGR3Panvmmol5FwpRptaDFu/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
